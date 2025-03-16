@@ -1,0 +1,9 @@
+.myarrow {
+    text-align: center;
+    padding: 25% 0;
+    font-size: 40px;
+}
+
+    .myarrow:hover {
+        background-color: rgb(225, 225, 225);
+    }
