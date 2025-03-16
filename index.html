@@ -54,5 +54,18 @@
             document.getElementById("frame").src = "paper/" + i + ".html";
 
         }
+
+        document.onkeydown = function() {
+            switch (window.event.keyCode) {
+                case 37:
+                    // disp('Left key is pressed')
+                    previous();
+                break;
+                case 39:
+		            // disp('Right key is pressed') 
+                    next();
+                break;
+            }
+        };
     </script>
 </html>
